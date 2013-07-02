@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ramones Haiku Generator</title>
+		<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+		<meta property="og:title" content="Ramones Haiku Generator"/>
+		<meta property="og:url" content="http://ihatetourists.com/ramones"/>
+		<meta property="og:description" content="Creates haiku from the lyrics of the first three Ramones LPs." /> 
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+
+        <div id="header">Ramones Haiku Generator</div>
+
+        <div id="haiku-container">
+        	<div class="haiku">
+		        <div class="first-line"></div>
+		        <div class="second-line"></div>
+		        <div class="third-line"></div>
+		    </div>
+
+        <div id="explanation">
+        	<p>Who doesn't like the Ramones? Their oft-overlooked lyrics (written largely by Dee Dee, strangely) lend themselves really well to cut-and-paste stuff like this. Haiku don't have to be 5-7-5 (I think?), so the generator's normal mode just grabs three random lines from the first three Ramones albums. For purists, though, its syllable-counting mode creates a haiku by starting with a random word from those albums and counting forward until it reaches the correct number of syllables. (If it goes over, it just starts again.)</p>
+        	<p>Click that link below for an example.<div class="arrow">&#11015;</div></p>
+        </div>
+
+	    </div>
+
+        <a id="more">Do it one more time for me.</a>
+
+        <div id="syllables-checkbox">
+        	<label for="syllables"><input type="checkbox" id="syllables"/>Count syllables?</label>
+        </div>
+
+        <div id="share">
+            <a href="#" target="_blank" id="tweet">Tweet current haiku</a><br/>
+            <a href="#" target="_blank" id="facebook">Share current haiku on Facebook</a>
+        <div>
+
+        <div id="what">
+        	<a>What's all this?</a>
+        </div>
+
+        <div id="who">
+        	<a href="http://twitter.com/blurstoftimes" target="_blank">@blurstoftimes</a>
+        </div>
+
+    </body>
+</html>
